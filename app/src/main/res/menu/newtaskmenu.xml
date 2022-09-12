@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemsave"
+        android:title="Save"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_save_24"/>
+
+    <item android:id="@+id/itemcancle"
+        android:title="Cancle"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_cancel_24"/>
+</menu>

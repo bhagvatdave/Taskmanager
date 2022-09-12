@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.NewTask">
+    <include layout="@layout/toolbar_shadow_layout"/>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Save1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/EDTitletext"
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:lineSpacingExtra="4dp"
+                android:textSize="@dimen/abc_text_size_large_material"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelAlwaysShown="true"
+                app:met_floatingLabelText="Title"
+                app:met_floatingLabelTextSize="20sp"
+                app:met_hideUnderline="true" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/EDDescriptiontext"
+                style="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/EDTitletext"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:lineSpacingExtra="4dp"
+                app:met_floatingLabel="highlight"
+                app:met_floatingLabelAlwaysShown="true"
+                app:met_floatingLabelText="Enter Something"
+                app:met_hideUnderline="true" />
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

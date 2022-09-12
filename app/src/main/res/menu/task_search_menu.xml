@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item
+        android:id="@+id/typeview"
+        app:showAsAction="always"
+        android:title="View Type"
+        android:icon="@drawable/ic_baseline_view_module_24" />
+    <item
+        android:id="@+id/name"
+        android:title="Name">
+
+        <menu>
+
+            <item android:id="@+id/nameasc"
+                android:title="Ascending"/>
+            <item android:id="@+id/namedesc"
+                android:title="Descending"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/CreatedDate"
+        android:title="Created Date">
+
+        <menu>
+
+            <item android:id="@+id/Cdateasc"
+                android:title="Ascending"/>
+            <item android:id="@+id/Cdatedesc"
+                android:title="Descending"/>
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/UpdatedDate"
+        android:title="Updated Date">
+
+        <menu>
+
+            <item
+                android:id="@+id/Udateasc"
+                android:title="Ascending" />
+            <item
+                android:id="@+id/Udatedesc"
+                android:title="Descending" />
+
+        </menu>
+
+    </item>
+
+</menu>

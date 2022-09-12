@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Taskmanager</string>
+    <string name="StrPending">Pending</string>
+    <string name="StrComplate">Complate</string>
+</resources>
